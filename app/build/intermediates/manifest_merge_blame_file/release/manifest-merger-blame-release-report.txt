@@ -1,0 +1,87 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.canh0chua.gpempty"
+4    android:versionCode="2"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/mphan/Coding/gotohp-anti-v1/gpempty/app/src/main/AndroidManifest.xml:5:5-67
+11-->/Users/mphan/Coding/gotohp-anti-v1/gpempty/app/src/main/AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS" />
+12-->/Users/mphan/Coding/gotohp-anti-v1/gpempty/app/src/main/AndroidManifest.xml:6:5-95
+12-->/Users/mphan/Coding/gotohp-anti-v1/gpempty/app/src/main/AndroidManifest.xml:6:22-92
+13
+14    <permission
+14-->[androidx.core:core:1.12.0] /Users/mphan/.gradle/caches/8.14.2/transforms/f69c81766dd2f80509b02583fb7851d6/transformed/core-1.12.0/AndroidManifest.xml:22:5-24:47
+15        android:name="com.canh0chua.gpempty.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+15-->[androidx.core:core:1.12.0] /Users/mphan/.gradle/caches/8.14.2/transforms/f69c81766dd2f80509b02583fb7851d6/transformed/core-1.12.0/AndroidManifest.xml:23:9-81
+16        android:protectionLevel="signature" />
+16-->[androidx.core:core:1.12.0] /Users/mphan/.gradle/caches/8.14.2/transforms/f69c81766dd2f80509b02583fb7851d6/transformed/core-1.12.0/AndroidManifest.xml:24:9-44
+17
+18    <uses-permission android:name="com.canh0chua.gpempty.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+18-->[androidx.core:core:1.12.0] /Users/mphan/.gradle/caches/8.14.2/transforms/f69c81766dd2f80509b02583fb7851d6/transformed/core-1.12.0/AndroidManifest.xml:26:5-97
+18-->[androidx.core:core:1.12.0] /Users/mphan/.gradle/caches/8.14.2/transforms/f69c81766dd2f80509b02583fb7851d6/transformed/core-1.12.0/AndroidManifest.xml:26:22-94
+19
+20    <application
+20-->/Users/mphan/Coding/gotohp-anti-v1/gpempty/app/src/main/AndroidManifest.xml:8:5-24:19
+21        android:allowBackup="true"
+21-->/Users/mphan/Coding/gotohp-anti-v1/gpempty/app/src/main/AndroidManifest.xml:9:9-35
+22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+22-->[androidx.core:core:1.12.0] /Users/mphan/.gradle/caches/8.14.2/transforms/f69c81766dd2f80509b02583fb7851d6/transformed/core-1.12.0/AndroidManifest.xml:28:18-86
+23        android:extractNativeLibs="false"
+24        android:icon="@drawable/ic_launcher"
+24-->/Users/mphan/Coding/gotohp-anti-v1/gpempty/app/src/main/AndroidManifest.xml:10:9-45
+25        android:label="@string/app_name"
+25-->/Users/mphan/Coding/gotohp-anti-v1/gpempty/app/src/main/AndroidManifest.xml:12:9-41
+26        android:roundIcon="@drawable/ic_launcher_round"
+26-->/Users/mphan/Coding/gotohp-anti-v1/gpempty/app/src/main/AndroidManifest.xml:11:9-56
+27        android:supportsRtl="true"
+27-->/Users/mphan/Coding/gotohp-anti-v1/gpempty/app/src/main/AndroidManifest.xml:13:9-35
+28        android:theme="@style/Theme.Gpempty" >
+28-->/Users/mphan/Coding/gotohp-anti-v1/gpempty/app/src/main/AndroidManifest.xml:14:9-45
+29        <activity
+29-->/Users/mphan/Coding/gotohp-anti-v1/gpempty/app/src/main/AndroidManifest.xml:16:9-23:20
+30            android:name="com.canh0chua.gpempty.MainActivity"
+30-->/Users/mphan/Coding/gotohp-anti-v1/gpempty/app/src/main/AndroidManifest.xml:17:13-41
+31            android:exported="true" >
+31-->/Users/mphan/Coding/gotohp-anti-v1/gpempty/app/src/main/AndroidManifest.xml:18:13-36
+32            <intent-filter>
+32-->/Users/mphan/Coding/gotohp-anti-v1/gpempty/app/src/main/AndroidManifest.xml:19:13-22:29
+33                <action android:name="android.intent.action.MAIN" />
+33-->/Users/mphan/Coding/gotohp-anti-v1/gpempty/app/src/main/AndroidManifest.xml:20:17-69
+33-->/Users/mphan/Coding/gotohp-anti-v1/gpempty/app/src/main/AndroidManifest.xml:20:25-66
+34
+35                <category android:name="android.intent.category.LAUNCHER" />
+35-->/Users/mphan/Coding/gotohp-anti-v1/gpempty/app/src/main/AndroidManifest.xml:21:17-77
+35-->/Users/mphan/Coding/gotohp-anti-v1/gpempty/app/src/main/AndroidManifest.xml:21:27-74
+36            </intent-filter>
+37        </activity>
+38
+39        <provider
+39-->[androidx.emoji2:emoji2:1.2.0] /Users/mphan/.gradle/caches/8.14.2/transforms/596e1103cf8cd1a82c78d596e2c69682/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+40            android:name="androidx.startup.InitializationProvider"
+40-->[androidx.emoji2:emoji2:1.2.0] /Users/mphan/.gradle/caches/8.14.2/transforms/596e1103cf8cd1a82c78d596e2c69682/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
+41            android:authorities="com.canh0chua.gpempty.androidx-startup"
+41-->[androidx.emoji2:emoji2:1.2.0] /Users/mphan/.gradle/caches/8.14.2/transforms/596e1103cf8cd1a82c78d596e2c69682/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
+42            android:exported="false" >
+42-->[androidx.emoji2:emoji2:1.2.0] /Users/mphan/.gradle/caches/8.14.2/transforms/596e1103cf8cd1a82c78d596e2c69682/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
+43            <meta-data
+43-->[androidx.emoji2:emoji2:1.2.0] /Users/mphan/.gradle/caches/8.14.2/transforms/596e1103cf8cd1a82c78d596e2c69682/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+44                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+44-->[androidx.emoji2:emoji2:1.2.0] /Users/mphan/.gradle/caches/8.14.2/transforms/596e1103cf8cd1a82c78d596e2c69682/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
+45                android:value="androidx.startup" />
+45-->[androidx.emoji2:emoji2:1.2.0] /Users/mphan/.gradle/caches/8.14.2/transforms/596e1103cf8cd1a82c78d596e2c69682/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
+46            <meta-data
+46-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/mphan/.gradle/caches/8.14.2/transforms/2aabfeea6f73d29a50f7c2f38dc8ba92/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+47                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+47-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/mphan/.gradle/caches/8.14.2/transforms/2aabfeea6f73d29a50f7c2f38dc8ba92/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+48                android:value="androidx.startup" />
+48-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/mphan/.gradle/caches/8.14.2/transforms/2aabfeea6f73d29a50f7c2f38dc8ba92/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+49        </provider>
+50    </application>
+51
+52</manifest>

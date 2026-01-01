@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="control_gray">#FF1E1E1E</color>
+    <color name="dark_gray">#FF121212</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="text_hint">#FFAAAAAA</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">gpempty</string>
+    <style name="Theme.Gpempty" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        
+        <item name="colorPrimary">@color/black</item>
+        <item name="colorPrimaryVariant">@color/dark_gray</item>
+        
+        <item name="colorSecondary">#FF3700B3</item>
+        
+        <item name="android:statusBarColor">@color/black</item>
+        
+        <item name="android:navigationBarColor">@color/black</item>
+    </style>
+</resources>
