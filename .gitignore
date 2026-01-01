@@ -1,13 +1,40 @@
+# Android/IntelliJ
 *.iml
-.gradle
+.gradle/
+.idea/
 /local.properties
-/.idea/
+/.idea/workspace.xml
+/.idea/libraries
 .DS_Store
 /build
 /captures
 .externalNativeBuild
 .cxx
-local.properties
+
+# Android Studio Navigation editor temp files
+.navigation/
+
+# Android Studio captures folder
+captures/
+
+# Keystore files
+*.jks
+*.keystore
+*.p12
+*.key
+
+# Google Services (if applicable)
+google-services.json
+
+# Build Outputs
 /app/build
-/app/release-key.jks
 **/outputs/apk
+**/outputs/bundle
+
+# Log files
+*.log
+
+# Gradle Wrapper (keep these tracked usually, but check user preference? standard is to track wrapper)
+# gradle/
+# gradlew
+# gradlew.bat
