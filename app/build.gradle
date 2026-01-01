@@ -21,9 +21,19 @@ android {
         buildConfig true
     }
 
+    signingConfigs {
+        release {
+            storeFile file("release-key.jks")
+            storePassword "android"
+            keyAlias "key0"
+            keyPassword "android"
+        }
+    }
+
     buildTypes {
         release {
-            minifyEnabled false
+            signingConfig signingConfigs.release
+            minifyEnabled true
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }

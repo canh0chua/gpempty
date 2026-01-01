@@ -1,4 +1,0 @@
-#Wed Dec 31 19:08:14 PST 2025
-base.0=/Users/mphan/Coding/gotohp-anti-v1/gpempty/app/build/intermediates/dex/release/mergeDexRelease/classes.dex
-path.0=classes.dex
-renamed.0=classes.dex
