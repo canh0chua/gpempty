@@ -2,6 +2,8 @@
 
 **Version:** 1.0.0
 
+![App Screenshot](screenshot.png)
+
 GPEmpty is an Android application designed to automate the management and cleaning of Google Photos libraries. It uses a hybrid approach with a native Android WebView to interact with the Google Photos web interface, allowing for mass deletion and library maintenance.
 
 ## Features
